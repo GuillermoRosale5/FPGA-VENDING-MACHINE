@@ -1,6 +1,19 @@
 FPGA VENDING MACHINE
 
-As a project for the Digital Electronic Systems course, we have decided to make a vending machine on a NEXYS A7 board. The chosen project was one of the proposals presented by the course professors, since not having previous experience in handling FPGAs, we preferred to work with what they recommended. The project statement is as follows: "Design a soda vending machine. It accepts 10c, 20c, 50c, and 1€ coins. It only accepts the exact amount, so if more money is inserted it gives an error and "returns" all the money. When the exact amount of the soda (1€) is reached, a signal will be activated to dispense the product. It will have input signals indicating the coin, product indicator signals, and output signals for error and product." 1.2 Objectives The main purpose of the project is to design the vending machine as proposed in the statement. To achieve this, the main objectives are: - Select among several products. - Synchronize asynchronous inputs. - Detect edges and generate pulses. - Display payment information on the Display. - Count the inserted coins. - Manage errors. As an extra goal, we have decided to add: - Stock management. - A greater quantity of products to choose from, each with its individual stock. - Display on screen all the real information that an authentic vending machine would have.
+As a project for the Digital Electronic Systems course, we have decided to make a vending machine on a NEXYS A7 board. The chosen project was one of the proposals presented by the course professors, since not having previous experience in handling FPGAs, we preferred to work with what they recommended. The project statement is as follows: "Design a soda vending machine. It accepts 10c, 20c, 50c, and 1€ coins. It only accepts the exact amount, so if more money is inserted it gives an error and "returns" all the money. When the exact amount of the soda (1€) is reached, a signal will be activated to dispense the product. It will have input signals indicating the coin, product indicator signals, and output signals for error and product."
+
+1.2 Objectives
+The main purpose of the project is to design the vending machine as proposed in the statement. To achieve this, the main objectives are: 
+- Select among several products.
+- Synchronize asynchronous inputs.
+- Detect edges and generate pulses.
+- Display payment information on the Display.
+- Count the inserted coins.
+- Manage errors.
+As an extra goal, we have decided to add:
+- Stock management.
+- A greater quantity of products to choose from, each with its individual stock.
+- Display on screen all the real information that an authentic vending machine would have.
 
 
 
